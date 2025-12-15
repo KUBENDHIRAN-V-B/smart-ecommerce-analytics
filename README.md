@@ -1,4 +1,4 @@
-# 🚀 Smart E-Commerce Analytics & Recommendation Engine
+# Smart E-Commerce Analytics & Recommendation Engine
 
 > AI-Powered Analytics Platform for Next-Generation E-Commerce | Full-Stack • ML • Real-Time • Production-Ready
 
@@ -7,20 +7,20 @@
 [![React 18+](https://img.shields.io/badge/react-18%2B-61dafb)](https://react.dev)
 [![Docker Ready](https://img.shields.io/badge/Docker-Ready-2496ED)](https://www.docker.com/)
 
-## 🎯 Overview
+## Overview
 
 A cutting-edge e-commerce analytics platform that combines **Machine Learning**, **Real-Time Data Processing**, and **Interactive Visualization** to help businesses make data-driven decisions. Features include:
 
-- 📊 **Advanced Analytics Dashboard** - Real-time sales metrics, trends, and KPIs
-- 🤖 **ML-Based Recommendations** - Collaborative filtering and content-based product recommendations
-- 📈 **Sales Forecasting** - ARIMA and Prophet-based time-series predictions
-- ⚡ **Real-Time Inventory** - Live stock tracking with automated low-stock alerts
-- 🔌 **RESTful API** - Comprehensive backend with Flask and PostgreSQL
-- 🎨 **React Dashboard** - Interactive, responsive frontend with Chart.js
-- 🔄 **WebSocket Updates** - Real-time notifications and live data sync
-- 🐳 **Docker Ready** - Production-grade containerization
+- **Advanced Analytics Dashboard** - Real-time sales metrics, trends, and KPIs
+- **ML-Based Recommendations** - Collaborative filtering and content-based product recommendations
+- **Sales Forecasting** - ARIMA and Prophet-based time-series predictions
+- **Real-Time Inventory** - Live stock tracking with automated low-stock alerts
+- **RESTful API** - Comprehensive backend with Flask and PostgreSQL
+- **React Dashboard** - Interactive, responsive frontend with Chart.js
+- **WebSocket Updates** - Real-time notifications and live data sync
+- **Docker Ready** - Production-grade containerization
 
-## ⭐ Key Features
+## Key Features
 
 ### Backend (Python/Flask)
 - **User Authentication** - JWT-based secure authentication
@@ -47,7 +47,7 @@ A cutting-edge e-commerce analytics platform that combines **Machine Learning**,
 - **Customer Segmentation** - K-means clustering
 - **Anomaly Detection** - Identify unusual sales patterns
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -70,7 +70,7 @@ A cutting-edge e-commerce analytics platform that combines **Machine Learning**,
   └─────────┘  └───────────┘  └─────────┘  └──────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -114,7 +114,7 @@ docker-compose up -d
 # Database: localhost:5432
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 ### Authentication
 ```bash
@@ -148,7 +148,7 @@ POST /api/inventory/update          # Update stock
 GET /api/inventory/low-stock        # Low stock alerts
 ```
 
-## 🤖 ML Models
+## ML Models
 
 ### Recommendation Engine
 - **Collaborative Filtering**: User-item interaction matrix with cosine similarity
@@ -165,7 +165,7 @@ GET /api/inventory/low-stock        # Low stock alerts
 - **Z-Score**: Statistical outlier detection
 - **DBSCAN**: Clustering-based anomaly detection
 
-## 📊 Database Schema
+## Database Schema
 
 ### Core Tables
 - `users` - User accounts and profiles
@@ -177,7 +177,7 @@ GET /api/inventory/low-stock        # Low stock alerts
 - `recommendations` - Cached ML recommendations
 - `forecast_data` - Sales predictions
 
-## 🔌 WebSocket Events
+## WebSocket Events
 
 ```javascript
 // Client listens for real-time updates
@@ -190,7 +190,7 @@ socket.on('forecast:updated', (prediction) => {...})
 socket.emit('request:update', {type: 'inventory'})
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - **API Response Time**: < 200ms (95th percentile)
 - **Dashboard Load Time**: < 2s
@@ -199,18 +199,18 @@ socket.emit('request:update', {type: 'inventory'})
 - **Database Queries**: Optimized with indexes and caching
 - **Frontend**: 90+ Lighthouse score
 
-## 🔐 Security Features
+## Security Features
 
-- ✅ JWT Authentication with refresh tokens
-- ✅ Password hashing (bcrypt)
-- ✅ SQL injection prevention (parameterized queries)
-- ✅ CORS configuration
-- ✅ Rate limiting on API endpoints
-- ✅ Input validation and sanitization
-- ✅ HTTPS support
-- ✅ Environment variable management
+-  JWT Authentication with refresh tokens
+-  Password hashing (bcrypt)
+-  SQL injection prevention (parameterized queries)
+-  CORS configuration
+-  Rate limiting on API endpoints
+-  Input validation and sanitization
+-  HTTPS support
+-  Environment variable management
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smart-ecommerce-analytics/
@@ -236,7 +236,7 @@ smart-ecommerce-analytics/
 └── README.md             # This file
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Framework**: Flask 2.0+
@@ -258,7 +258,7 @@ smart-ecommerce-analytics/
 - **Styling**: Tailwind CSS / Material-UI
 - **Build**: Vite / Create React App
 
-## 📊 Usage Examples
+## Usage Examples
 
 ### Get Product Recommendations
 ```python
@@ -295,7 +295,7 @@ function Dashboard() {
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Backend tests
@@ -307,7 +307,7 @@ cd frontend
 npm test -- --coverage
 ```
 
-## 📈 Deployment
+## Deployment
 
 ### Heroku
 ```bash
@@ -319,7 +319,7 @@ heroku run "python manage.py db upgrade"
 ### AWS / Cloud Run
 See `deployment/` directory for cloud-specific configs
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our contributing guidelines.
 
@@ -329,27 +329,14 @@ Contributions are welcome! Please read our contributing guidelines.
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📝 License
+## License
 
 MIT License - see LICENSE file for details
 
-## 👨‍💻 Author
-
-**Kubendhiran V B**
-- GitHub: [@KUBENDHIRAN-V-B](https://github.com/KUBENDHIRAN-V-B)
-- LinkedIn: [Your Profile](https://linkedin.com/in/)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Flask & React communities
 - scikit-learn for ML capabilities
 - Database design best practices
 - Open-source contributors
-
-## 📞 Support
-
-For support, email your@email.com or open an GitHub issue.
-
 ---
-
-**⭐ If you find this project useful, please give it a star!**
